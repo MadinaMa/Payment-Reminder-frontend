@@ -1,0 +1,42 @@
+img {
+    object-fit: cover;
+    width: 100vw;
+    height: 23vw;
+    top: 0;
+}
+body {
+    background-color: rgb(246,180,21);
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 2px RGB(15 21 177);
+}
+input {
+    width: 200px;
+    padding: 10px;
+    border: 1.5px solid  rgb(60,87,39);
+    border-radius: 6px;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+  input[type=text] {
+    background-color: white;
+    background-image: url('iconBill.png');
+    background-position: 5px 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+.btn {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(60,87,39);
+    color: white;
+}
+
